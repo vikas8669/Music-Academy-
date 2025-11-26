@@ -40,7 +40,7 @@ interface courseData {
 
 const Cards = () => {
     const featuredData = data.courses.filter((course: courseData) => course.isFeatured)
-    console.log(featuredData)
+    // console.log(featuredData)
     return (
         <div className="py-12 ">
             <div>
