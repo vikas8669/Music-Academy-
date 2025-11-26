@@ -29,7 +29,7 @@ function WhyChooseUs() {
       </div>
 
       {/* Right Side: Placeholder for Globe or other content */}
-      <div className="flex-1 flex flex-col justify-center items-center">
+      {/* <div className="flex-1 flex flex-col justify-center items-center">
         <h2 className="text-2xl md:text-3xl font-bold text-black dark:text-white text-center">
           Why Choose Us?
         </h2>
@@ -37,7 +37,7 @@ function WhyChooseUs() {
           We are building a global network with advanced 3D visualization. Scroll
           animations make the experience more interactive and engaging.
         </p>
-      </div>
+      </div> */}
     </section>
   );
 }

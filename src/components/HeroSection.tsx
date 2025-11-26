@@ -27,7 +27,7 @@ const HeroSection = () => {
                     <Link href="/course">
                         <Button
                             borderRadius="1.75rem"
-                            className="px-6 py-3 sm:px-8 sm:py-4 bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800 text-sm sm:text-base md:text-lg"
+                            className="px-6 py-6 sm:px-8 sm:py-4 bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800 text-sm sm:text-base md:text-lg"
                         >
                             Explore Courses
                         </Button>

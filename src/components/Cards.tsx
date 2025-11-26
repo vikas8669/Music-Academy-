@@ -30,7 +30,7 @@ const Cards = () => {
     );
 
     return (
-        <section className="py-12 px-4 md:px-8 lg:px-16">
+        <section className="py-12 px-4 md:px-8 ">
             {/* Heading */}
             <div className="text-center flex flex-col items-center justify-center">
                 <h2 className="text-2xl sm:text-3xl md:text-4xl text-teal-600 font-bold tracking-wide uppercase">
@@ -48,7 +48,7 @@ const Cards = () => {
                         key={course.id}
                         className="flex flex-col rounded-2xl bg-white dark:bg-zinc-900 overflow-hidden max-w-sm mx-auto shadow-lg hover:shadow-2xl transition-shadow duration-300"
                     >
-                        <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
+                        <div className="p-4 sm:p-6 flex flex-col items-center text-center ">
                             <img
                                 src={course.image}
                                 alt={course.title}

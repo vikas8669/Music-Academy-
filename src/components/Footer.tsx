@@ -61,7 +61,7 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="flex flex-wrap justify-center items-center mt-6 gap-6">
+        <div className="flex flex-wrap justify-center items-center mt-6 ">
           <AnimatedTooltip items={people} />
         </div>
       </WavyBackground>
